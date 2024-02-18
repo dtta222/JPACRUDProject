@@ -20,7 +20,7 @@ public class PlayerController {
 
 	@RequestMapping(path = { "/", "home.do" })
 	public String index(Model model) {
-		return "home";
+		return "index";
 	}
 	
 	@RequestMapping(path = "searchPlayers.do", method = RequestMethod.GET)
